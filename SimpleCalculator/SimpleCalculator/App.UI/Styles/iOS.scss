@@ -1,0 +1,14 @@
+﻿/* ------------------------------------------------------------
+/* NOTE: These styles will be applied to the iOS platform only 
+/* ------------------------------------------------------------*/
+
+@import "_Settings";
+
+.ios-only {
+    TextInput, TextView { font-family: Arial; }
+    .module-header-title { font-size: 24px; font-weight: bold; }
+
+    Dialog { border-radius: 15px; }
+
+    .primary-button { border-radius: 5px; }
+}

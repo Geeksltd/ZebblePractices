@@ -1,0 +1,34 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cd40d45a-cffe-46fc-8a9d-055ef9ff9440</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UI</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory).zebble-generated-css.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory).zebble-generated.cs" />
+    <None Include="$(MSBuildThisFileDirectory)compilerconfig.json.defaults" />
+    <None Include="$(MSBuildThisFileDirectory)compilerconfig.json" />
+    <None Include="$(MSBuildThisFileDirectory)Splash.png" />
+    <None Include="$(MSBuildThisFileDirectory)Icon.png" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Windows.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\_Core.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Common.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\iOS.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\_Settings.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Android.scss" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="$(MSBuildThisFileDirectory)Views\.zebble-schema.xml" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Page1.zbl" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Pages\Page1.zbl.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)StartUp.cs" />
+  </ItemGroup>
+</Project>

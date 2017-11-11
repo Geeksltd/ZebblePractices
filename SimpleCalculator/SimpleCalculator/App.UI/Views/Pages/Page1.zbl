@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<z-Component z-type="Page1" z-base="Zebble.Page" z-namespace="UI.Pages"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./../.zebble-schema.xml">
+
+  <TextView Text="Hello World!" Style.Margin.Top="100"/>
+
+</z-Component>
