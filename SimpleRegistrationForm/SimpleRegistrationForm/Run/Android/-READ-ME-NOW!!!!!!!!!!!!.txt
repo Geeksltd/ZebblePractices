@@ -1,0 +1,28 @@
+﻿
+
+DO THIS NOW!
+*********************************************
+1: Click Save All in Visual Studio
+
+2: Run  ⇒ -RUN-ME-NOW!!!!!!!!!!!!!.bat
+        ⚠ When prompted about external changes, select "Reload All"
+
+3: Build the Android project. Ensure NuGet packages can be restored in your VS (see below).
+		
+4. Unload the Android and iOS projects.
+
+5. Run the UWP project to ensure everything is ready.
+
+
+
+*************************************************
+* PREPARE YOUR VISUAL STUDIO « Once is enough » *
+*************************************************
+1: ⇒ Tools → Options → [NuGet] Package Manager → General
+        ⚠ Make sure your Visual Studio can restore NuGet packages
+
+2: ⇒ Tools → Options → Text Editor → File Extension
+        ⚠ Add an entry for "zbl" file extension to be edited using the XML editor.
+
+3: ⇒ Debug → Windows → Exception Settings
+        ⚠ Click "Common Language Runtime Exception" to show a tick icon

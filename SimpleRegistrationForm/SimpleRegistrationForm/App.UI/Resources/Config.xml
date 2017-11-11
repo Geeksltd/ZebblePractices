@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <!--Learn about the settings at: http://zebble.net/docs/standard-zebble-settings -->
+
+  <Dev.Mode value="true" />
+  <Profiling.Performance value="false"/>
+  <MultiThread.Debugging value="false" />
+  <Dev.Css.Platform value="Windows" />
+  <Api.Base.Url value="http://localhost:1234" />
+
+  <!--<Database.Cache.Enabled value="true" />-->
+  <!--<Database.File value="app.db3" />-->
+  <Push.Notification.Background.Enabled value="false" />
+  <Push.Notification.Android.Sender.ID value="..." />
+  <Button.Tap.AutoFlash value="true" />
+  <Device.System.DetectShaking value="false"/>
+  <Android.Hardware.Back.Can.Close value="false" />
+  <Sanity.Enabled value="false" />
+  <Sanity.Windows.Listener.Url value="http://localhost:62001" />
+
+</settings>

@@ -1,0 +1,34 @@
+﻿[
+    {
+        "outputFile": "Styles/Standard.css",
+        "inputFile": "Styles/Standard.sass"
+    },
+    {
+        "outputFile": "Styles/Standard.css",
+        "inputFile": "Styles/Standard.scss"
+    },
+    {
+        "outputFile": "Styles/AndroidStandard.css",
+        "inputFile": "Styles/AndroidStandard.scss"
+    },
+    {
+        "outputFile": "Styles/Android.css",
+        "inputFile": "Styles/Android.scss"
+    },
+    {
+        "outputFile": "Styles/Common.css",
+        "inputFile": "Styles/Common.scss"
+    },
+    {
+        "outputFile": "Styles/_Core.css",
+        "inputFile": "Styles/_Core.scss"
+    },
+    {
+        "outputFile": "Styles/iOS.css",
+        "inputFile": "Styles/iOS.scss"
+    },
+    {
+        "outputFile": "Styles/Windows.css",
+        "inputFile": "Styles/Windows.scss"
+    }
+]

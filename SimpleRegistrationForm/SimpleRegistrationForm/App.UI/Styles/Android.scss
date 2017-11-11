@@ -1,0 +1,56 @@
+﻿/* ----------------------------------------------------------------
+/* NOTE: These styles will be applied to the ANDROID platform only 
+/* ----------------------------------------------------------------*/
+
+@import "_Settings";
+
+.android-only {
+
+    TextInput, TextView { font-family: Roboto; }
+
+    Button, IconButton { text-transform: uppercase; height: 36px; border-radius: 4px; }
+    IconButton #TextView { text-transform: uppercase; }
+
+    PopUp {
+        Dialog, Page { border-radius: 4px; }
+    }
+
+    .module-header-title { font-size: 26px; margin-top: 10px; }
+
+    NavigationBar {
+        #Title { text-align: left; padding-left: 65px; font-size: 20px; font-weight: normal; padding-top: 10px; }
+    }
+
+    TextInput { font-family: Roboto; border: 0 $very-light-grey; border-bottom-width: 1px; padding: 2px; margin-bottom: 10px; }
+
+    ListView { padding-top: 8px;
+        ListViewItem { height: 72px; padding-left: 10px; padding-right: 10px;
+            ImageView.view-row { display: none; }
+        }
+    }
+
+    Tabs { height: auto;
+        Tabs-Tab { border: 0 $primary-color; font-size: 14px; margin-bottom: 1px; height: 40px;
+
+            &:active { background-color: transparent; border-bottom-width: 2px; }
+
+            #Label { text-transform: uppercase; height: 100%; vertical-align: middle; }
+
+            #Icon { display: none; }
+        }
+    }
+
+    /*Slider {
+        #Handle, #UpHandle { width: 20px; height: 20px; margin-top: 2px; }
+    }*/
+
+    Switch { width: 50px;
+        #Bar { background: $grey; height: 14px; border-radius: 7px; margin-top: 6px; opacity: 1; }
+        #Toggle { background: white; border-width: 1px; border-color: $grey; margin: 0; }
+
+        &:checked {
+            #Toggle { background: $primary-color; border-color: transparent; }
+            #Bar { opacity: 0.35; background: $primary-color; }
+        }
+    }
+}
